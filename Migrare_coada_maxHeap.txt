@@ -1,0 +1,6 @@
+10 Gigi 2 9 8
+12 MiMi 3 5 6 7
+14 DAn 4 2 3 4 5
+2 Laur 1 10
+3 Ionel 5 1 2 3 4 5
+6 Bibescu 3 1 1 3
