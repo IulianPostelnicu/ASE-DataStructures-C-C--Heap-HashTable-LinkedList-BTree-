@@ -1,0 +1,10 @@
+1 1000 Belgium
+2 10000 France
+3 2000 Germany
+4 9000 Italy
+5 3000 Luxembourg
+6 8000 Netherlands
+7 4000 Denmark
+8 7000 Ireland
+9 5000 Greece
+10 6000 Portugal
