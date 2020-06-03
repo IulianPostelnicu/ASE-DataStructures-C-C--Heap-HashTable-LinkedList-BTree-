@@ -1,0 +1,5 @@
+1 WindowsXp proce_principal 100 Iulian
+2 WindowsVista proces_secundar 110 George
+3 WindowsXp proces_secundar 200 David
+4 WindowsXp deschide_document 300 Iulian
+5 Windows7 deschideMp3 400 George
