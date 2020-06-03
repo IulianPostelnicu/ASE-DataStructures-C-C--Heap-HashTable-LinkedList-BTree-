@@ -361,6 +361,10 @@ void afisareHT(HashTable h) {
 }
 
 //to do extragere frunza din arbore
+
+
+//referinta la nivelul superior frunzei
+//extrage radacinile pe nivel
 Nod* extragereFrunza(Nod* rad, Nod* *referinta_cap) {
 	if (rad==NULL)
 	{
@@ -369,6 +373,7 @@ Nod* extragereFrunza(Nod* rad, Nod* *referinta_cap) {
 	else {
 		if (rad->st==NULL && rad->dr==NULL)
 		{
+			afisareProces(rad->info);
 			rad->st = *referinta_cap;
 			if (*referinta_cap != NULL) {
 				(*referinta_cap)->st = rad;
@@ -381,6 +386,8 @@ Nod* extragereFrunza(Nod* rad, Nod* *referinta_cap) {
 	rad->dr = extragereFrunza(rad->dr, referinta_cap);
 	return rad;
 }
+
+
 
 void main() {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
@@ -421,12 +428,13 @@ void main() {
 	afisareArbore(rad);
 
 	//cerinta 6 //crapa aici
-	//printf("*6--Extragere frunze \n");
-	//Nod* referinta = NULL;
+	printf("*6--Extragere frunze \n");
+	Nod* referinta = NULL;
+	extragereFrunza(rad, &referinta);
 	//extragereFrunza(rad, &referinta);
 	//extragereFrunza(rad, &referinta);
-	//extragereFrunza(rad, &referinta);
-	////afisareProces(extras->info);
-	//afisareArbore(rad);
+	//afisareProces(extras->info);
+	printf("-afisare Arbore- \n");
+	afisareArbore(rad);
 
 }
