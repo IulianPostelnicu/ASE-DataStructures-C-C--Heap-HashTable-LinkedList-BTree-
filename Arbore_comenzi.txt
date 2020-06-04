@@ -1,0 +1,5 @@
+106 Ionel1 10:08:2020 2 Coca-Cola 1 litru Merdenele 3 bucati
+103 Ionel 22:08:2020 1 Merdenele 3 bucati
+101 Ionel1 10:08:2020 2 Lapte 1 litru Paine 3 bucati
+108 Ionel 17:08:2020 2 Bere 1 litru Mere 3 kg
+104 Ionel1 10:08:2020 3 Fanta 2 litri Ulei 3 litri Faina 2 kg
